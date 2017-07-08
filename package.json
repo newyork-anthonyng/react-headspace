@@ -1,6 +1,6 @@
 {
   "name": "react-headspace",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "Next generation web header for React",
   "main": "build/index.js",
   "keywords": [
@@ -11,7 +11,8 @@
   ],
   "scripts": {
     "start": "nps",
-    "precommit": "npm start test.cover"
+    "precommit": "npm start test.cover",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "author": "",
   "license": "ISC",
@@ -56,5 +57,9 @@
     "commitizen": {
       "path": "node_modules/cz-conventional-changelog"
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/newyork-anthonyng/react-headspace.git"
   }
 }
