@@ -15,7 +15,7 @@ module.exports = {
     },
 
     'report-coverage': {
-      script: 'cat ./coverage/lcov.info | codecov',
+      script: 'codecov',
       description: 'Report code coverage to codecov',
     },
 
