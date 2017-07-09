@@ -32,6 +32,8 @@ exports[`When scrolling When at end of page should fix header if showing at bott
     style={
       Object {
         "height": "0px",
+        "position": "relative",
+        "zIndex": 100,
       }
     }
   >
@@ -64,6 +66,8 @@ exports[`When scrolling When at end of page should not fix header if not showing
     style={
       Object {
         "height": "0px",
+        "position": "relative",
+        "zIndex": 100,
       }
     }
   >
@@ -96,6 +100,8 @@ exports[`When scrolling When scrolling greater than tolerance level should fix h
     style={
       Object {
         "height": "0px",
+        "position": "relative",
+        "zIndex": 100,
       }
     }
   >
@@ -128,6 +134,8 @@ exports[`When scrolling When scrolling greater than tolerance level should hide 
     style={
       Object {
         "height": "0px",
+        "position": "relative",
+        "zIndex": 100,
       }
     }
   >
@@ -160,6 +168,8 @@ exports[`When scrolling should not do anything if scrolling less than tolerance 
     style={
       Object {
         "height": "0px",
+        "position": "relative",
+        "zIndex": 100,
       }
     }
   >
@@ -192,6 +202,8 @@ exports[`When scrolling should reset header when scrolling to the top of the pag
     style={
       Object {
         "height": "0px",
+        "position": "relative",
+        "zIndex": 100,
       }
     }
   >
@@ -220,6 +232,8 @@ exports[`should render children correctly 1`] = `
   style={
     Object {
       "height": "0px",
+      "position": "relative",
+      "zIndex": 100,
     }
   }
 >

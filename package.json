@@ -1,6 +1,6 @@
 {
   "name": "react-headspace",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Next generation web header for React",
   "main": "build/index.js",
   "keywords": [
